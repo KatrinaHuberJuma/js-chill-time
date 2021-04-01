@@ -9,6 +9,9 @@ console.log("js is still connect?");
 //     alert("wut?")
 // })
 
+// const formData = { username: $("#username").val()} 
+// how to get the value from the input in our html
+
 
 $('#bisque-button').on('click', () => { 
     // alert("button clicked");

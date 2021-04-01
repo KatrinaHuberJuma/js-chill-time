@@ -21,7 +21,7 @@ Steps:
         instantiate flask obj, add route(s) and run app
 
 
-next: add random class, chosen in server
+next: send data to server
 
 Main Demo:
     - [ ] make sure all files are connected 
