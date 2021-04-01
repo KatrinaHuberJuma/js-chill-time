@@ -13,7 +13,11 @@ console.log("js is still connect?");
 $('#bisque-button').on('click', () => { 
     // alert("button clicked");
     $.get('/get_style/api', (res) => {
+        // using the .fancy-text class to select elements on our page to add styles
         $('.fancy-text').addClass(res);
+        // res is a string that is a classname (such as "green-bg")
+        // so line 18 would read
+        // $('.fancy-text').addClass("green-bg");
     })
 })
 
