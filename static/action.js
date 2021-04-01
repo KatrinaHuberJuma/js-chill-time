@@ -8,3 +8,7 @@ console.log("js is connect");
 // $('#bisque-button').on('click', () => { 
 //     alert("the button was clicked")
 // })
+
+$.get('/get_style/api', (res) => {
+    alert(res)
+})

@@ -13,7 +13,7 @@ def show_index():
 
 @app.route("/get_style/api")
 def return_stylename():
-    return random.choice(CSS_CLASSNAMES)
+    return "random.choice(CSS_CLASSNAMES)"
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
