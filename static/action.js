@@ -13,6 +13,11 @@ console.log("js is still connect?");
 // how to get the value from the input in our html
 
 
+$("#name-form").on('submit', (evt) => {
+    evt.preventDefault()
+    console.log(evt)
+})
+
 $('#bisque-button').on('click', () => { 
     // alert("button clicked");
     $.get('/get_style/api', (res) => {
