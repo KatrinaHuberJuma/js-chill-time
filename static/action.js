@@ -15,6 +15,7 @@ $.post("/post_name", {username:"this is hardcoded in my console"}, (res) => {
     alert(res)
 })
 
+$("#username").val()
 
 $("#name-form").on('submit', (evt) => {
     evt.preventDefault()
