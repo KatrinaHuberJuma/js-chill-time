@@ -20,7 +20,7 @@ console.log("js is still connect?");
 
 $("#name-form").on('submit', (evt) => {
     evt.preventDefault();
-    console.log(evt);
+    // console.log(evt);
     const username = $("#username").val();
     console.log(username);
     $.post('/post_name', {cupcakes: username}, (res) => {
