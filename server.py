@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import random
 
 app = Flask(__name__)
@@ -22,6 +22,17 @@ def return_stylename():
     print("*"*20)
 
     return result
+
+@app.route("/post_name", methods=["POST"])
+def post_name():
+
+    user_name = request.form.get("username")
+
+    print("*"*20)
+    print(f"\nHello {user_name}, I'm in the post route\n")
+    print("*"*20)
+
+    return "hey"
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
