@@ -20,6 +20,9 @@ Steps:
         create server.py, import flask (and render_template)
         instantiate flask obj, add route(s) and run app
 
+
+next: add random class, chosen in server
+
 Main Demo:
     - [ ] make sure all files are connected 
     - [ ] what is a callback

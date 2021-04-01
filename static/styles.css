@@ -5,3 +5,15 @@ body {
 .welcome-msg {
     background-color: bisque;
 }
+
+.green-bg {
+    background-color: darkgreen;
+}
+
+.mono-font {
+    font-family: monospace;
+}
+
+.red-text {
+    color: red;
+}
