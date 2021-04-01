@@ -11,15 +11,21 @@ console.log("js is still connect?");
 
 // const formData = { username: $("#username").val()} 
 // how to get the value from the input in our html
-$.post("/post_name", {username:"this is hardcoded in my console"}, (res) => {
-    alert(res)
-})
+// $.post("/post_name", {username:"this is hardcoded in my console"}, (res) => {
+//     alert(res);
+// })
 
-$("#username").val()
+// user's name from the input
+// $("#username").val();
 
 $("#name-form").on('submit', (evt) => {
-    evt.preventDefault()
-    console.log(evt)
+    evt.preventDefault();
+    console.log(evt);
+    const username = $("#username").val();
+    console.log(username);
+    $.post('/post_name', {cupcakes: username}, (res) => {
+        console.log(res);
+    })
 })
 
 $('#bisque-button').on('click', () => { 
