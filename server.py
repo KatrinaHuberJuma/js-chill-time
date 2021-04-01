@@ -2,10 +2,14 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
+CSS_CLASSNAMES = ["green-bg", "red-text", "mono-font"]
+
 @app.route("/")
 def show_index():
     # return "Heya"
     return render_template("index.html")
+
+
 
 
 if __name__ == "__main__":

@@ -14,6 +14,7 @@ body {
     font-family: monospace;
 }
 
-.red-text {
+/* warning-msg ---reminder to pick class names that describe WHY you are styling */
+.red-text { 
     color: red;
 }
