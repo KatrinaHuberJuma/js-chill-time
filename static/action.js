@@ -13,7 +13,7 @@ console.log("js is still connect?");
 $('#bisque-button').on('click', () => { 
     alert("button clicked");
     $.get('/get_style/api', (res) => {
-        alert(res);
+        $('.fancy-text').addClass(res);
     })
 })
 
