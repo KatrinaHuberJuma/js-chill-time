@@ -1,8 +1,9 @@
 Who is javascript? Hint: not python and not much like java, despite the name
 
 
-start from a "blank" page
-which functions should we study
+- [x] start from a "blank" page
+- [x] which functions should we study
+        answer: the examples form lecture slides and lecture demo code
 Syntax (js vs jquery)
 
 
@@ -22,7 +23,7 @@ Steps:
 Main Demo:
     - [ ] make sure all files are connected 
     - [ ] what is a callback
-    
+
     select element 
         - [ ] vanilla 
         - [ ] jquery
