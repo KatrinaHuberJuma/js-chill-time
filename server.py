@@ -15,7 +15,13 @@ def show_index():
 @app.route("/get_style/api")
 def return_stylename():
     # flask view functions must always return strings
-    return random.choice(CSS_CLASSNAMES)
+    result = random.choice(CSS_CLASSNAMES)
+
+    print("*"*20)
+    print(f"\nresult = {result}\n")
+    print("*"*20)
+
+    return result
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
